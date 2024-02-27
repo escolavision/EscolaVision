@@ -5,32 +5,41 @@
 
 
 body{
-    width: 90%;
+    width: 98%;
     margin: auto;
+    background-color: #AED6F1 ;
+}
+aside{
+    width: 15%;
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.area{
+    transform: rotate(60deg);
+}
+main{
+    width: 83%;
+    float: right;
 }
 h1{
 text-align: center;
 }
-p{
-    text-align: justify;
-}
-#artes{
-    background-image: url(../images/artes2.jpg);
-    height: 380px;
-    background-attachment: fixed;
-    background-repeat: repeat-x;
-    border-radius: 10px;
+
+main{
+    border-radius: ;
 }
 
-#artes h1{
+h1{
     background-color: rgba(248, 248, 248, 0.8);
     padding: 20px;
     margin-bottom: 40px;
     font-family: 'Docallisme';
 }
 
-#artes p{
+p{
     background-color: rgba(248, 248, 248, 0.8);
-    text-align: center;
+    text-align: justify;
     padding: 20px;
 }
