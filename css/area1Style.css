@@ -3,35 +3,60 @@
     src: url(../fonts/DOCALLISME\ ON\ STREET.ttf);
 }
 
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(6 auto);
+    grid-template-areas:
+    "logo tit1 tit1 tit1 tit1"
+    "as tex1 tex1 tex1 tex1"
+    "as tit2 tit2 tit2 tit2"
+    "as tex2 tex2 tex2 tex2"
+    "as tit3 tit3 tit3 tit3"
+    "as tex3 tex3 tex3 tex3";
+    column-gap: 10px;
+}
+#aside{
+    grid-area: as;
+}
+#main{
+    grid-area: main;
+}
+#tit1{
+    grid-area: tit1;
+}
+#tex1{
+    grid-area: tex1;
+}
+#tit2{
+    grid-area: tit2;
+}
+#tex2{
+    grid-area: tex2;
+}
+#tit3{
+    grid-area: tit3;
+}
+#tex3{
+    grid-area: tex3;
+}
 
 body{
-    width: 98%;
+    width: 95%;
     margin: auto;
     background-color: #AED6F1 ;
 }
 aside{
-    width: 15%;
-    background-color: black;
+    background-color: #47ABB2;
     float: left;
     color: white;
-    text-align: center;
+    display: fixed;
+    font-size:xx-large;
 }
-.area{
-    transform: rotate(60deg);
+ aside h1{
+    transform: rotate(-90deg);
 }
-main{
-    width: 83%;
-    float: right;
-}
-h1{
-text-align: center;
-}
-
-main{
-    border-radius: ;
-}
-
-h1{
+article h1{
     background-color: rgba(248, 248, 248, 0.8);
     padding: 20px;
     margin-bottom: 40px;
