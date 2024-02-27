@@ -36,6 +36,9 @@
     "as tex3 tex3 tex3 tex3";
     column-gap: 10px;
 }
+#logo{
+    grid-area: logo;
+}
 #aside{
     grid-area: as;
 }
