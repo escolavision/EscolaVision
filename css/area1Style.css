@@ -78,6 +78,7 @@ aside{
 }
  aside h1{
     transform: rotate(-90deg);
+    padding: auto;
 }
 article h1{
     background-color: rgba(248, 248, 248, 0.8);
