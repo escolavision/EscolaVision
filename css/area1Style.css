@@ -23,6 +23,8 @@
     --background-aside: #47ABB2;
     --background-text: rgba(248, 248, 248, 0.8);
     --fuente: 'Docallisme';
+    --aside-text-color: white;
+    --a-color: black;
 }
 @font-face {
     font-family: 'Docallisme';
@@ -78,11 +80,11 @@ body{
 aside{
     background-color: var(--background-aside);
     float: left;
-    color: white;
+    color: var(--aside-text-color);
     display: fixed;
     font-size:3vw;
 }
- aside h1{
+aside h1{
     transform: rotate(-90deg);
     margin: auto;
 }
@@ -105,5 +107,5 @@ ul{
 }
 ul li a{
     text-decoration: none;
-    color: black;
+    color: var(--a-color);
 }
