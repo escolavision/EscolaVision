@@ -84,7 +84,7 @@ aside{
  aside h1{
     transform: rotate(-90deg);
     padding: auto;
-    text-align: center;
+    text-align: left;
 }
 article h1{
     background-color: var(--background-text);
@@ -101,7 +101,9 @@ img:first-of-type{
     margin: auto;
 }
 ul{
-    color: black;
     background-color: var(--background-text);
+}
+ul li a{
     text-decoration: none;
+    color: black;
 }
