@@ -79,7 +79,7 @@ aside{
     float: left;
     color: white;
     display: fixed;
-    font-size:2vw;
+    font-size:3vw;
 }
  aside h1{
     transform: rotate(-90deg);
@@ -87,13 +87,13 @@ aside{
 }
 article h1{
     background-color: var(--background-text);
-    padding: 20px;
+    padding: 0.5vw;
     font-family: 'Docallisme';
 }
 p{
     background-color: var(--background-text);
     text-align: justify;
-    padding: 20px;
+    padding: 0.5vw;
 }
 img:first-of-type{
     width: 50%;
