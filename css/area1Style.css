@@ -83,7 +83,7 @@ aside{
 }
  aside h1{
     transform: rotate(-90deg);
-    margin: 1vw;
+    margin: 3vw;
 }
 article h1{
     background-color: var(--background-text);
