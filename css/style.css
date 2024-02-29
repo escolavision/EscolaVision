@@ -10,8 +10,8 @@
     "as tex2 tex2 tex2 tex2"
     "as tit3 tit3 tit3 tit3"
     "as tex3 tex3 tex3 tex3"
-    "as tit4 tit4 tit4 tit4"
-    "as tex4 tex4 tex4 tex4";
+    "as titciclos titciclos titciclos titciclos"
+    "as texciclos texciclos texciclos texciclos";
     column-gap: 10px;
 }
 #logo{
@@ -41,11 +41,11 @@
 #tex3{
     grid-area: tex3;
 }
-#tit4{
-    grid-area: tit43;
+#titciclos{
+    grid-area: titciclos;
 }
-#ciclos{
-    grid-area: tex4;
+#texciclos{
+    grid-area: texciclos;
 }
 
 body{
