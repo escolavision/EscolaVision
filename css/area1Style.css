@@ -103,4 +103,5 @@ img:first-of-type{
 ul{
     color: black;
     background-color: var(--background-text);
+    text-decoration: none;
 }
