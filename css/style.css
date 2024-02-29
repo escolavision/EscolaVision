@@ -1,10 +1,87 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+    "logo tit1 tit1 tit1 tit1"
+    "as tex1 tex1 tex1 tex1"
+    "as tit2 tit2 tit2 tit2"
+    "as tex2 tex2 tex2 tex2"
+    "as tit3 tit3 tit3 tit3"
+    "as tex3 tex3 tex3 tex3"
+    "as tit4 tit4 tit4 tit4"
+    "as tex4 tex4 tex4 tex4";
+    column-gap: 10px;
+}
+#logo{
+    grid-area: logo;
+}
+#aside{
+    grid-area: as;
+}
+#main{
+    grid-area: main;
+}
+#tit1{
+    grid-area: tit1;
+}
+#tex1{
+    grid-area: tex1;
+}
+#tit2{
+    grid-area: tit2;
+}
+#tex2{
+    grid-area: tex2;
+}
+#tit3{
+    grid-area: tit3;
+}
+#tex3{
+    grid-area: tex3;
+}
+#tit4{
+    grid-area: tit43;
+}
+#tex4{
+    grid-area: tex4;
+}
+
 body{
     width: 90%;
     margin: auto;
+    background-color: var(--background-body) ;
 }
-h1{
-text-align: center;
+aside{
+    background-color: var(--background-aside);
+    float: left;
+    color: var(--aside-text-color);
+    display: fixed;
+    font-size:4vw;
+}
+aside h1{
+    transform: rotate(-90deg);
+    padding: auto;
+}
+article h1{
+    background-color: var(--background-text);
+    padding: 20px;
+    font-family: var(--fuente);
 }
 p{
+    background-color: var(--background-text);
     text-align: justify;
+    padding: 20px;
+}
+img:first-of-type{
+    width: 50%;
+    margin: auto;
+}
+ul{
+    background-color: var(--background-text);
+}
+ul li a{
+    text-decoration: none;
+    color: var(--a-color);
 }
