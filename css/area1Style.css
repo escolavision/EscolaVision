@@ -18,6 +18,11 @@
     <color name="naranja_claro">#F8AD58</color>
     <color name="verde_claro">#C2EC6F</color>
 */
+:root{
+    --background-body: #AED6F1;
+    --background-aside: #47ABB2;
+    --background-text: rgba(248, 248, 248, 0.8);
+}
 @font-face {
     font-family: 'Docallisme';
     src: url(../fonts/DOCALLISME\ ON\ STREET.ttf);
@@ -67,10 +72,10 @@
 body{
     width: 95%;
     margin: auto;
-    background-color: #AED6F1 ;
+    background-color: var(--background-body) ;
 }
 aside{
-    background-color: #47ABB2;
+    background-color: var(--background-aside);
     float: left;
     color: white;
     display: fixed;
@@ -81,12 +86,12 @@ aside{
     padding: auto;
 }
 article h1{
-    background-color: rgba(248, 248, 248, 0.8);
+    background-color: var(--background-text);
     padding: 20px;
     font-family: 'Docallisme';
 }
 p{
-    background-color: rgba(248, 248, 248, 0.8);
+    background-color: var(--background-text);
     text-align: justify;
     padding: 20px;
 }
