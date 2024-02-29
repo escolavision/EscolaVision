@@ -79,7 +79,6 @@ aside{
     float: left;
     color: white;
     display: fixed;
-    font-size:xx-large;
 }
  aside h1{
     transform: rotate(-90deg);
