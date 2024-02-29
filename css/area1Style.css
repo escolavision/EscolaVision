@@ -84,6 +84,7 @@ aside{
  aside h1{
     transform: rotate(-90deg);
     padding: auto;
+    text-align: center;
 }
 article h1{
     background-color: var(--background-text);
@@ -98,4 +99,8 @@ p{
 img:first-of-type{
     width: 50%;
     margin: auto;
+}
+ul li{
+    color: black;
+    background-color: var(--background-text);
 }
