@@ -22,6 +22,7 @@
     --background-body: #AED6F1;
     --background-aside: #47ABB2;
     --background-text: rgba(248, 248, 248, 0.8);
+    --fuente: 'Docallisme';
 }
 @font-face {
     font-family: 'Docallisme';
@@ -83,12 +84,12 @@ aside{
 }
  aside h1{
     transform: rotate(-90deg);
-    margin: 3vw;
+    margin: auto;
 }
 article h1{
     background-color: var(--background-text);
     padding: 20px;
-    font-family: 'Docallisme';
+    font-family: var(--fuente);
 }
 p{
     background-color: var(--background-text);
