@@ -50,6 +50,7 @@ aside{
 
 aside h1{
     transform: rotate(-90deg);
+    margin: auto;
 }
 
 main{
@@ -70,7 +71,6 @@ article h1{
     padding-left: 20px;
     margin-top:50px;
     margin-bottom: 0px;
-
 }
 
 article h2{
