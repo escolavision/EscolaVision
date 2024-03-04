@@ -111,13 +111,29 @@ img{
     width: 85%;
 
 }
-ul{
-    padding-left: 60px;
+a{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+  
 }
-ul li a{
+fieldset{
+    text-align: center;
+}
+figure img{
+    width: 100px;
+    
+}
+figcaption{
+    text-align: center;
+    font-size: large
+}
+
+a{
     text-decoration: underline;
     color: var(--a-color);
 }
-ul li{
-    padding: 5px;
+figure{
+    margin: 0px;
 }
