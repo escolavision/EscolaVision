@@ -29,6 +29,7 @@ body{
     "logo tex1"
     "as main";
     column-gap: 10px;
+    
 }
 
 header{
@@ -75,6 +76,7 @@ article h1{
 article h2{
     margin-top: 20px;
     margin-bottom: 0px;
+    padding-left:20px;
     font-size: 2.5vw;
 }
 
@@ -106,11 +108,11 @@ p{
     padding: 0px 20px;
 }
 img{
-    width: 80%;
+    width: 85%;
 
 }
 ul{
-    padding-left: 50px;
+    padding-left: 60px;
 }
 ul li a{
     text-decoration: underline;
