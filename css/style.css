@@ -56,6 +56,7 @@ main{
     border: 4px solid var(--background-aside);
     border-radius: 20px;
     background-color: var(--background-text);
+    padding: 20px;
 }
 
 #tit1{
