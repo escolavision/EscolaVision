@@ -29,7 +29,7 @@ body{
     "logo tex1"
     "as main";
     column-gap: 10px;
-    
+    row-gap: 20px;
 }
 
 header{
