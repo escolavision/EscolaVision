@@ -109,7 +109,6 @@ p{
 }
 img{
     width: 85%;
-
 }
 a{
     display: inline-block;
@@ -135,4 +134,7 @@ a{
 }
 figure{
     margin: 0px;
+}
+fieldset{
+    border: 0px;
 }
