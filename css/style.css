@@ -130,6 +130,7 @@ a{
 }
 figure{
     margin: 0px;
+    width: 90%;
     border: 2px solid #47ABB2;
     padding: 10px;
     border-radius: 10%;
