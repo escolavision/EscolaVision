@@ -115,7 +115,8 @@ a{
     display: inline-block;
     text-align: center;
     padding: 20px;
-  
+    text-decoration: none;
+    color: #47ABB2;
 }
 fieldset{
     text-align: center;
@@ -123,11 +124,6 @@ fieldset{
 figcaption{
     text-align: center;
     font-size: large
-}
-
-a{
-    text-decoration: none;
-    color: #47ABB2;
 }
 figure{
     margin: 0px;
