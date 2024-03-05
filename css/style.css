@@ -107,7 +107,7 @@ p{
     text-align: justify;
     padding: 0px 20px;
 }
-img{
+#logo img{
     width: 85%;
 }
 a{
@@ -120,7 +120,7 @@ fieldset{
     text-align: center;
 }
 figure img{
-    width: 100px;
+    
     
 }
 figcaption{
