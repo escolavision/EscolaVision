@@ -59,6 +59,7 @@ main{
     border-radius: 20px;
     background-color: var(--background-text);
     padding: 20px;
+    width: 100%;
 }
 
 #tit1{
@@ -130,7 +131,6 @@ a{
 }
 figure{
     margin: 0px;
-    width: 90%;
     border: 2px solid #47ABB2;
     padding: 10px;
     border-radius: 10%;
