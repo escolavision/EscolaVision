@@ -1,11 +1,12 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 95%;
+    grid-template-rows: repeat(5, auto);
     grid-template-areas: 
-    "tit2 tit2 tit2 tit2"
-    "tex2 tex2 tex2 tex2"
-    "titciclos titciclos titciclos titciclos"
-    "texciclos texciclos texciclos texciclos";
-    column-gap: 15px;
+    "tit2"
+    "tex2"
+    "titciclos"
+    "texciclos"
+    "imgciclos";
+    justify-content: center;
 }

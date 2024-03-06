@@ -1,13 +1,13 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: 95%;
     grid-template-rows: repeat(6, auto);
     grid-template-areas: 
-    "tit2 tit2 tit2 tit2"
-    "tex2 tex2 tex2 tex2"
-    "tit3 tit3 tit3 tit3"
-    "tex3 tex3 tex3 tex3"
-    "titciclos titciclos titciclos titciclos"
-    "texciclos texciclos texciclos texciclos";
-    column-gap: 15px;
+    "tit2"
+    "tex2"
+    "tit3"
+    "tex3"
+    "titciclos"
+    "texciclos";
+    justify-content: center;
 }
