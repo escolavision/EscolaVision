@@ -51,6 +51,7 @@ aside{
 aside h1{
     transform: rotate(-90deg);
     margin: auto;
+    font-size: 5vw;
 }
 
 main{
