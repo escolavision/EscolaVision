@@ -42,7 +42,7 @@ aside{
     grid-area: as;
     background-color: var(--background-aside);
     color: var(--aside-text-color);
-    font-size:2.5vw;
+    font-size:5vw;
     display: flex;
     align-items: center;
     border-radius: 20px;
@@ -51,7 +51,6 @@ aside{
 aside h1{
     transform: rotate(-90deg);
     margin: auto;
-    font-size: 5vw;
 }
 
 main{
