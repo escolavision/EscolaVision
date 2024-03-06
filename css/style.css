@@ -136,6 +136,7 @@ figure img{
     height: 50%;
     max-width: 90%;
     max-height: 90%;
+    text-align: center;
 }
 figure:hover{
     box-shadow: 0px 0px 20px #248d95;
