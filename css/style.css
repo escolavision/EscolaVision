@@ -42,7 +42,7 @@ aside{
     grid-area: as;
     background-color: var(--background-aside);
     color: var(--aside-text-color);
-    font-size:3.3vw;
+    font-size:3vw;
     display: flex;
     align-items: center;
     border-radius: 20px;
